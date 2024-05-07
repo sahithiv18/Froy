@@ -1,0 +1,253 @@
+<html>
+<head>
+  <style>
+  *{
+    padding: 0px;
+    margin:0px;
+  }
+  .contact {
+  position: relative;
+  padding: 0px;
+  margin: 0px
+  align-items: center;
+  height: auto;
+  background-image: url('https://img.freepik.com/free-photo/abstract-dark-blue-grunge-texture-with-scratches-spots-old-cement-plaster-wall-background_150101-2005.jpg');
+  color: white;
+  background-size:cover;
+  }
+
+
+  .container {
+   width:auto;
+   padding: 20px 20px;
+   position: relative;
+  }
+  .container .contactInfo
+  {
+  width:50%;
+  display: flex;
+  flex-direction: row;
+  }
+
+  .container .conatactInfo .box{
+  position: absolute;
+  display:flex;
+  }
+  .container .contactInfo .box1 .icon{
+   width: 50px;
+   height: 50px;
+   position: relative;
+  font-size: 26px;
+  top:80px;
+  }
+  .container .contactInfo .box1 .text{
+  text-align: left;
+  width: 150px;
+  position: relative;
+  left: 43px;
+  top: 25px;
+  }
+  .container .contactInfo .box2 .icon{
+   width: 50px;
+   height: 50px;
+   position: relative;
+  font-size: 26px;
+  top: 80px;
+  left:150px;
+
+  }
+  .container .contactInfo .box2 .text{
+  text-align: left;
+  width: 150px;
+  position: relative;
+  left: 200px;
+  top:25px;
+
+  }
+  .container .contactInfo .box3 .icon{
+   width: 50px;
+   height: 50px;
+   position: relative;
+  font-size: 26px;
+  top: 80px;
+  left:300px;
+  }
+  .container .contactInfo .box3 .text{
+  text-align: left;
+  width: 150px;
+  position: relative;
+  left: 352px;
+  top: 25px;}
+
+  #place{
+  	position: relative;
+  	left: 440px;
+  	bottom: 10px;
+  }
+
+  .first{
+    background:linear-gradient(rgba(0,0,0,0.7),  rgba(0,0,0,0)), url('https://cdn.cnn.com/cnnnext/dam/assets/200120161356-cnn-worlds-best-new-restaurants---madera---simon-brown-photography-1-1-full-169.jpg');
+    background-image: cover;
+    height:710px;
+    color: white;
+
+  }
+
+  .inside-contact{
+    background: rgba(0, 0, 0, 0.7);
+    width:500px;
+    height: 80%;
+    position: relative;
+    top: 130px;
+    left:800px;
+
+  }
+
+}
+.inside-contact h2{
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:50px;
+    padding-top: 5px;
+}
+.inside-contact h3{
+    text-align:center;
+    font-size:16px;
+    color:#0085e2;
+    margin: 10px;
+}
+.inside-contact input, .inside-contact textarea{
+    width:80%;
+    background-color:rgba(255,255,255,0.8);
+    border:1px solid rgba(0,0,0,0.48);
+    padding:5px 10px;
+    margin: 15px;
+
+}
+.inside-contact p{
+  padding-left:15px;
+}
+.logo{
+  position: relative;
+  bottom: 300px;
+  border-radius: 5px;
+  left: 250px;
+  background-color: black;
+  width:250px;
+  height:250px;
+  border-radius: 50%;
+}
+#image{
+  position: relative;
+  width:370px;
+  height:300px;
+  right: 73px;
+  bottom: 30px;
+}
+.navbar{
+	width: auto;
+	float: right;
+	border: none;
+	height: 70px;
+  position: relative;
+  top:15px;
+}
+
+.navbar ul li{
+	width: 150px;
+	float: left;
+	margin: 25px auto;
+	text-align: center;
+	padding: 5px;
+  position: relative;
+  right: 350px;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+  padding: 2px;
+}
+
+
+.navbar ul li a:hover{
+	color: white;
+	text-decoration: underline;
+}
+.new{
+	padding-left:80px;
+
+}
+
+  </style>
+</head>
+<body>
+  <section class="first">
+    <nav class="navbar">
+  		<ul type="none">
+  			<li><a href="froy.html">Home</a></li>
+  			<li><a href="Menu.html">Menu</a></li>
+  			<li><a href="Order.html;">Order Online</a></li>
+  			<li><a href="login.html">Login</a></li>
+  			<li><a href="Contact.html">Contact Us</a></li>
+  		</ul>
+  </nav>
+    <div class="inside-contact">
+            <h2><center>Contact Us</center></h2>
+            <h3>
+               <span id="confirm">
+            </h3>
+            <p>Name *</p>
+            <input id="txt_name" type="text" Required="required">
+            <p>Email *</p>
+            <input id="txt_email" type="text" Required="required">
+            <p>Phone *</p>
+            <input id="txt_phone" type="text" Required="required">
+            <p>Subject *</p>
+            <input id="txt_subject" type="text" Required="required">
+            <p>Message *</p>
+            <textarea id="txt_message" rows="4" cols="20" Required="required" ></textarea>
+            <input type="submit" id="btn_send" value="SEND">
+         </div>
+      <div class="logo">
+        <img id="image" src="C:\Users\suchi\Desktop\raye\canvas.png" >
+      </div>
+
+</section>
+  <section class="contact">
+
+<script src="https://kit.fontawesome.com/f5d7e640d9.js" crossorigin="anonymous"></script>
+<div class="new">
+  <div class="container">
+    <div class="contactinfo">
+      <div class="box1" >
+        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+        <div class="text">
+           <h3>Address</h3>
+           <p>Jubliee Hills Road No 36,<br>Hyderabad,Telangana,<br>500033</p>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+        <div class="text">
+          <h3>Phone</h3>
+          <p> +91 6127970164 </p>
+        </div>
+      </div>
+      <div class="box3">
+        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+        <div class="text">
+          <h3>Email</h3>
+          <p>FroyContactUs@gmail.com</p>
+        </div>
+        </div>
+      <div id="place">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.547558309475!2d78.40325131479695!3d17.43348738805104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91463b7ebb4b%3A0x16a4ba4ed2262687!2sRd%20Number%2036%2C%20Jubilee%20Hills%2C%20Hyderabad%2C%20Telangana%20500033!5e0!3m2!1sen!2sin!4v1654000861349!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+</body>
+</html>

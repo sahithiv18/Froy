@@ -1,0 +1,985 @@
+<html>
+
+<head>
+  <style>
+    * {
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .hrcRestaurantMenu2Widget1323330 {
+      color: #000;
+      line-height: normal;
+      margin: 20px auto;
+      padding: 0 15px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 sup {
+      left: .1em;
+      top: -.4em
+    }
+
+    .hrcRestaurantMenu2Widget1323330 li:before {
+      display: none
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .menuLink {
+      text-align: center
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .menuLink a {
+      background-color: #c82540;
+      border: 1px solid #c82540;
+      -webkit-transition: all .5s ease;
+      transition: all .5s ease
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .menuLink a:focus,
+    .hrcRestaurantMenu2Widget1323330 .menuLink a:hover {
+      background-color: #000;
+      border: 1px solid #000
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .menuLink.visible-xs {
+      margin: 20px auto
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .menuLink.visible-xs a {
+      display: block
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .menuLink.visible-xs a:not(:last-child) {
+      margin-bottom: 3px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .menuLink.visible-sm {
+      margin: 10px auto 30px;
+      text-align: center
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .menuLink.hidden-xs.hidden-sm {
+      margin: 30px auto 0
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .menuLink.hidden-xs.hidden-sm a {
+      margin-bottom: 5px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .languagesMenu {
+      margin-bottom: 20px;
+      position: relative;
+      text-align: center
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .languagesMenu button {
+      background-color: #c82540;
+      border: none;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      width: 100%
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .languagesMenu .fas.fa-comments {
+      margin-right: 10px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .languagesMenu .fas.fa-caret-down {
+      margin-left: 10px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .languagesMenu .dropdown-menu {
+      background-color: #000;
+      border: none;
+      border-radius: 0;
+      margin-top: 0;
+      padding-left: 0 !important;
+      text-align: center;
+      top: 42px;
+      width: 100%
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .languagesMenu .dropdown-menu>li>a {
+      color: #fff;
+      padding: 10px;
+      text-transform: uppercase
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .languagesMenu .dropdown-menu>li>a:focus,
+    .hrcRestaurantMenu2Widget1323330 .languagesMenu .dropdown-menu>li>a:hover {
+      background-color: #000;
+      color: #f9b200
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .languagesNavPill,
+    .hrcRestaurantMenu2Widget1323330 .languagesNavPill .dropdown-menu {
+      width: 150px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .languagesNavPill {
+      background-color: #fff;
+      border-radius: 0;
+      c82540 color: #000;
+      cursor: pointer;
+      padding: 10px 15px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .languagesNavPill:focus,
+    .hrcRestaurantMenu2Widget1323330 .languagesNavPill:hover {
+      background-color: #c82540;
+      border-color: #c82540;
+      color: #fff
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .languagesNavPill .fas {
+      margin-left: 10px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .languagesNavPill .dropdown-menu {
+      background-color: #c82540;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      color: #fff;
+      margin-top: 0;
+      margin-left: -2px;
+      min-width: 0;
+      padding-left: 4px !important
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .languagesNavPill .dropdown-menu li {
+      margin: 0;
+      width: 100%
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .languagesNavPill .dropdown-menu>.active>a {
+      background-color: transparent;
+      color: #E6DBD9
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .languagesNavPill .dropdown-menu a {
+      color: #fff;
+      padding: 10px 15px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .languagesNavPill .dropdown-menu>.active>a:focus,
+    .hrcRestaurantMenu2Widget1323330 .languagesNavPill .dropdown-menu>.active>a:hover {
+      color: #fff
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .languagesNavPill .dropdown-menu a:focus,
+    .hrcRestaurantMenu2Widget1323330 .languagesNavPill .dropdown-menu a:hover {
+      background-color: transparent;
+      color: #E6DBD9
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .panel-group .panel+.panel {
+      margin-top: 0
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .panel-heading {
+      background-color: #fff;
+      padding: 0
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .panel-default {
+      border: 2px solid #000;
+      border-bottom: 1px;
+      border-radius: 0
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .panel-default:last-child {
+      border-bottom: 2px solid #000
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .panel-title {
+      font-weight: 800;
+      text-align: center
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .panel-title>a {
+      display: block;
+      padding: 10px 15px;
+      text-decoration: none
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .panel-title>a:hover,
+    .hrcRestaurantMenu2Widget1323330 .panel-title>a.js-tabcollapse-panel-heading {
+      background-color: #c82540;
+      color: #fff
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .panel-title>a.js-tabcollapse-panel-heading.collapsed {
+      background-color: #fff;
+      color: #000
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .panel-default>.panel-heading+.panel-collapse>.panel-body {
+      border-top: 2px solid #000
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .nav-pills {
+      margin: 30px auto 20px;
+      padding: 0 10px;
+      text-align: center;
+      position: relative;
+      top: -55px;
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .nav-pills li {
+      display: inline-block;
+      float: none;
+      font-weight: 850;
+      margin: 0 5px 15px;
+      text-transform: uppercase
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .nav-pills>li>a {
+      background-color: #fff;
+      border-radius: 0;
+      color: #000;
+      text-decoration: none;
+      -webkit-transition: all .5s ease;
+      transition: all .5s ease
+
+    }
+
+
+    .hrcRestaurantMenu2Widget1323330 .nav-pills>li>a:hover
+     {
+      background-color: grey;
+      border-color: black;
+      color: black;
+      -webkit-transition: all .5s ease;
+      transition: all .5s ease
+    }
+
+    .hrcRestaurantMenu2Widget1323330 h2 {
+      color: #c82540;
+      font-family: 'Oswald', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin-top: 0
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .submenuGroup {
+      margin-top: 50px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .menuItemList {
+      list-style-type: none;
+      margin-top: 50px;
+      padding-left: 0 !important
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .menuItemList li:not(:first-child) {
+      margin-top: 30px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .menuItemList li h4 {
+      font-size: 1.1rem;
+      font-weight: 800;
+      margin-bottom: 5px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .menuItemList li div {
+      font-weight: 400
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .tabDisclaimer {
+      font-size: 0.85rem;
+      line-height: 1.8;
+      margin: 30px auto 0
+    }
+
+    .hrcRestaurantMenu2Widget1323330 li.newItemYes {
+      position: relative
+    }
+
+    .hrcRestaurantMenu2Widget1323330 li.newItemYes:before {
+      display: block;
+      content: url('https://www.hardrockcafe.com/files/5282/menuNew.png') !important;
+      position: absolute;
+      left: -22px;
+      top: -7px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .featuredItem {
+      text-align: center
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .featuredItem:not(.TabFeaturedItem1) {
+      margin-top: 30px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .featuredItemContent {
+      border: 4px solid #c82540;
+      font-weight: 400;
+      margin: 30px auto 0;
+      padding: 20px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .featuredItemContent h3 {
+      font-size: 1.5rem;
+      font-weight: 900;
+      margin: 0
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .featuredItemContent>div {
+      margin-top: 10px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .addtlInfo {
+      border: 4px solid #c82540;
+      font-weight: 400;
+      margin: 30px auto 0;
+      padding: 20px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .addtlInfoHeading {
+      color: #c82540;
+      font-family: 'Nunito Sans', sans-serif;
+      font-style: italic;
+      font-weight: 700;
+      margin-top: 0;
+      text-transform: none
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .addtlInfoContent {}
+
+    .hrcRestaurantMenu2Widget1323330 .panel-body {}
+
+    .hrcRestaurantMenu2Widget1323330 .panel-body a {
+      color: #c82540
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .tab-content {
+      background-position: 50% 50%;
+      background-size: cover;
+      color: #000;
+      padding: 30px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .tab-pane {
+      background-color: #fff;
+      padding: 50px
+    }
+
+    .hrcRestaurantMenu2Widget1323330 .tab-pane a {
+      color: #c82540
+    }
+
+    @media (min-width:768px) {}
+
+    @media (min-width:992px) {
+      .hrcRestaurantMenu2Widget1323330 .nav-pills>li.active>a:hover {
+        background-color: #fff;
+        border-color: #000;
+        color: #000
+      }
+
+      .hrcRestaurantMenu2Widget1323330 h2 {
+        font-size: 3.5rem
+      }
+
+      .hrcRestaurantMenu2Widget1323330 .submenuGroup {
+        margin-top: 0
+      }
+
+      .hrcRestaurantMenu2Widget1323330 .submenuGroup:not(.TabMenuItem1) {
+        margin-top: 100px
+      }
+    }
+
+    @media (min-width:1200px) {
+      .hrcRestaurantMenu2Widget1323330 h2 {
+        font-size: 4rem
+      }
+    }
+
+    @media (min-width:1400px) {
+      .hrcRestaurantMenu2Widget1323330 h2 {
+        font-size: 5rem
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <style>
+  #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #a86868;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+  <script>
+      var mybutton = document.getElementById("myBtn");
+      window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              mybutton.style.display = "block";
+           } else {
+                      mybutton.style.display = "none";
+             }
+            }
+function topFunction() {
+ document.body.scrollTop = 0;
+ document.documentElement.scrollTop = 0;
+}
+</script>
+  <div id="hero" style="margin-top: 87px;">
+    <div id="headerImg">
+      <div id="vizHeroImage31Widget805803" class="customWidget vizHeroImage31Widget pageWidgetId805803">
+        <style>
+          .vizHeroImage31Widget805803 div.hero-image {
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 0px padding:0px;
+            position: relative;
+            top: -90px;
+
+          }
+
+          .vizHeroImage31Widget805803 .hero-image {
+            position: relative
+          }
+
+          .vizHeroImage31Widget805803 .hero-fade {
+            display: none
+          }
+        </style>
+        <div class="vizHeroImage31Widget805803 fullViewportHero">
+          <div class="hero-image" style="height: 600.5px;">
+            <div class="hero-fade"></div>
+            <nav class="navbar">
+              <ul type="none">
+                <li><a href="froy.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Order.html;">Order Online</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+              </ul>
+            </nav>
+            <style>
+              .navbar {
+                width: auto;
+                float: right;
+                border: none;
+                height: 70px;
+                padding: 15px;
+                position: relative;
+                top: 5px;
+                left: 12px;
+              }
+
+              .navbar ul li {
+                width: 150px;
+                float: left;
+                margin: 25px auto;
+                text-align: center;
+                padding: 5px;
+                position: relative;
+                right: 350px;
+              }
+
+              .navbar ul li a {
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+                padding: 2px;
+              }
+
+
+              .navbar ul li a:hover {
+                color: white;
+                text-decoration: underline;
+              }
+            </style>
+            <style>
+              #vizHeroImage31Widget805803 div.hero-image {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('https://www.teahub.io/photos/full/19-191749_3840x2160-healthy-fibrous-foods-wallpaper-high-resolution-food.jpg');
+                background-position: 50% 70%
+              }
+
+              @media (min-width:768px) {
+                #vizHeroImage31Widget805803 div.hero-image {
+                  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('https://www.teahub.io/photos/full/19-191749_3840x2160-healthy-fibrous-foods-wallpaper-high-resolution-food.jpg');
+                  background-position: 50% 70%
+                }
+              }
+
+              @media (min-width:992px) {
+                #vizHeroImage31Widget805803 div.hero-image {
+                  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('https://www.teahub.io/photos/full/19-191749_3840x2160-healthy-fibrous-foods-wallpaper-high-resolution-food.jpg');
+                  background-position: 50% 70%
+                }
+              }
+            </style>
+            <div class="visible carousel-caption">
+              <h3><span class="bgOuter"><span class="bgInner"><span class="bgInner2">Menu</span></span></span></h3>
+            </div>
+            <style>
+              @media (min-width: 768px) {
+
+                #hero .slideCaption,
+                #hero .carousel-caption {
+                  right: 5%;
+                  left: 5%;
+                }
+              }
+
+              #hero .slideCaption,
+              #hero .carousel-caption {
+                right: 8%;
+                left: 8%;
+              }
+
+              #hero .slideCaption,
+              #hero .carousel-caption {
+                right: 8%;
+                left: 8%;
+              }
+
+              @media screen and (min-width: 768px) .carousel-caption {
+                right: 20%;
+                left: 20%;
+                padding-bottom: 30px;
+              }
+
+              .carousel-caption {
+                position: absolute;
+                right: 15%;
+                bottom: 20px;
+                left: 15%;
+                z-index: 10;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                color: #fff;
+                text-align: center;
+                text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+              }
+
+              #hero .carousel-caption h3 {
+                font-size: 2.7rem;
+                margin: 0;
+                text-align: center;
+                text-transform: uppercase;
+              }
+
+              #hero .visible.carousel-caption .bgInner {
+                background: url(https://www.hardrockcafe.com/files/templates/1732/bannerBg.jpg) 50% 50% / cover;
+                display: inline-block;
+              }
+            </style>
+          </div>
+        </div>
+        <script>
+          function ApplyHeight() {
+            function heightCalc() {
+              $fullViewport = true;
+              $iHeight = $(window).height() - ($('header').height() + ($(window).height() * .25));
+            }
+
+            function heightCalcFalse() {
+              $fullViewport = false;
+              $iWidth = $('body').width();
+            }
+            var $fullViewport;
+            var $iHeight;
+            var $iWidth;
+            heightCalc();
+            if ($fullViewport == true) {
+              $(".vizHeroImage31Widget805803 .hero-image").height($iHeight);
+              $(".vizHeroImage31Widget805803").addClass('fullViewportHero');
+            }
+            $(window).on('resize', function() {
+              if ($fullViewport == true) {
+                heightCalc();
+                $(".vizHeroImage31Widget805803 .hero-image").height($iHeight);
+              }
+            });
+          }
+          $(function() {
+            ApplyHeight();
+          });
+        </script>
+      </div>
+    </div>
+  </div>
+  <div class="hrcRestaurantMenu2Widget1323330">
+    <ul class="nav nav-pills nav-left hidden-xs" role="tablist" id="hrcRestaurantMenu2Widget1323330Nav">
+
+      <li class="enabledSection" role="presentation"><a href="#Tab1" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="false">Burgers</a></li>
+      <li class="enabledSection" role="presentation"><a href="#Tab2" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="false"> Starters &amp; Shareables</a></li>
+      <li class="enabledSection" role="presentation"><a href="#Tab3" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="false">Sandwiches</a></li>
+      <li class="enabledSection" role="presentation"><a href="#Tab4" aria-controls="home" role="tab" data-toggle="tab">Salads &amp; Bowls</a></li>
+      <li class="enabledSection" role="presentation"><a href="#Tab6" aria-controls="home" role="tab" data-toggle="tab">Desserts</a></li>
+      <li class="enabledSection" role="presentation"><a href="#Tab8" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Beverages</a></li>
+    </ul>
+    <div class="panel-group visible-xs" id="hrcRestaurantMenu2Widget1323330Nav-accordion"></div>
+    <div class="tab-content hidden-xs animated fadeIn" data-originalsrc="https://www.hardrockcafe.com/files/5282/menuBg02.jpg" style="background-image: url(&quot;https://www.hardrockcafe.com/files/5282/menuBg02.jpg&quot;);">
+      <div role="tabpanel" class="tab-pane fade enabledSection Tab1" id="Tab1">
+        <div class="row">
+          <div class="col-xs-12 col-md-5 featuredItems">
+            <div class="visible-xs visible-sm">
+              <center>
+                <h2 class="visible-sm"> Burgers</h2>
+                <p> Burgers are served with a fresh toasted brioche bun and seasoned fries.</p>
+              </center>
+            </div>
+            <div class="featuredItem TabFeaturedItem1 TabFeaturedItemLast"><img alt="Legendary Burger and Fries " class="featuredItemImg" data-originalsrc="https://www.hardrockcafe.com/files/5282/Burger-1-061.jpg"
+                src="https://www.hardrockcafe.com/files/5282/Burger-1-061.jpg" title="Original Legendary Burger">
+                <div class="featuredItemContent"><h3>ORIGINAL LEGENDARY<sup>®</sup> BURGER</h3><div><em>The burger that started it all!</em><br> Fresh steak burger, with Applewood bacon, Tillamook® cheddar cheese, crispy onion ring, leaf lettuce and vine-ripened tomato, served with our signature steak sauce on the side.</div></div>
+              <script>
+
+                $(function() {
+                  $('.hrcRestaurantMenu2Widget1323330 [href="#Tab1"]').on('show.bs.tab', function() {
+                    $('.hrcRestaurantMenu2Widget1323330 .Tab1 .TabFeaturedItem1 .featuredItemImg').attr('src', $('.hrcRestaurantMenu2Widget1323330 .Tab1 .TabFeaturedItem1 .featuredItemImg').attr('data-originalsrc'));
+                  });
+                });
+              </script>
+            </div>
+          </div>
+          <div class="col-xs-10 col-xs-push-1 col-md-6 col-md-push-1 menuItems">
+            <div class="submenuGroup TabMenuItem1">
+              <ul class="menuItemList">
+                <li class="TabMenuItemItem1 newItemNo">
+                  <h4>BBQ BACON CHEESEBURGER</h4>
+                  <div>Fresh steak burger, seasoned and seared with a signature spice blend, topped with house-made barbecue sauce, crispy shoestring onions, Tillamook® cheddar cheese, Applewood bacon, leaf lettuce and vine-ripened tomato, served
+                    with
+                    our signature steak sauce on the side.</div>
+                </li>
+                <li class="TabMenuItemItem2 newItemNo">
+                  <h4>THE BIG CHEESEBURGER</h4>
+                  <div>Three slices of Tillamook® cheddar cheese melted on our fresh steak burger with leaf lettuce, vine-ripened tomato and red onion, served with our signature steak sauce on the side.</div>
+                </li>
+                <li class="TabMenuItemItem3 newItemNo">
+                  <h4>DOUBLE-DECKER DOUBLE CHEESEBURGER</h4>
+                  <div><em>A tribute to our 1971 “Down Home Double Burger”</em><br> Two stacked steak burgers with American cheese, mayonnaise, leaf lettuce, vine-ripened tomato and red onion, served with our signature steak sauce on the side.*</div>
+                </li>
+                <li class="TabMenuItemItem4 newItemNo">
+                  <h4>THE IMPOSSIBLE<sup>™</sup> BURGER</h4>
+                  <div>100% plant-based vegan patty, topped with Tillamook® cheddar cheese and a crispy onion ring, served with leaf lettuce and vine-ripened tomato.<br><small><em>Vegan/vegetarian burgers vary in locations around the
+                        world.</em></small>
+                  </div>
+                </li>
+                <li class="TabMenuItemItem5 newItemNo">
+                  <h4>MOVING MOUNTAINS<sup>®</sup> BURGER</h4>
+                  <div>100% plant-based vegan patty, topped with cheddar cheese and a crispy onion ring, served with leaf lettuce and vine-ripened tomato.<br><small><em>Select E.U. Locations</em></small></div>
+                </li>
+                <li class="TabMenuItemItem6 newItemNo">
+                  <h4>SURF &amp; TURF BURGER</h4>
+                  <div>Our signature steak burger topped with One Night in Bangkok Spicy Shrimp<sup>™</sup> on a bed of spicy slaw, served with our signature steak sauce on the side.</div>
+                </li>
+                <li class="TabMenuItemItem7 TabMenuItemItemLast newItemNo">
+                  <h4>Add an Upgrade to Your Steak Burger</h4>
+                  <div>• Applewood Bacon <br> • Onion Rings<br> • Cheese Fries with Applewood Bacon <br></div>
+                </li>
+              </ul>
+            </div>
+            <div class="submenuGroup TabMenuItem2 TabMenuItemLast">
+              <h2><center>Smashed &amp; Stacked</center></h2>
+              <ul class="menuItemList">
+                <li class="TabMenuItemItem1 newItemNo">
+                  <h4>COUNTRY BURGER</h4>
+                  <div>Two smashed &amp; stacked burgers seasoned and seared medium-well, with American cheese, leaf lettuce, vine-ripened tomato, red onion, pickles, house-made burger sauce and served with a side of sweet relish.</div>
+                </li>
+                <li class="TabMenuItemItem2 newItemNo">
+                  <h4>SWISS MUSHROOM BURGER</h4>
+                  <div>Two smashed &amp; stacked burgers seasoned and seared medium-well, with Swiss cheese, sautéed mushrooms, leaf lettuce, vine-ripened tomato, and Dijon mayonnaise.</div>
+                </li>
+                <li class="TabMenuItemItem3 TabMenuItemItemLast newItemNo">
+                  <h4>SPICY DIABLO BURGER</h4>
+                  <div>Two smashed &amp; stacked burgers seasoned and seared medium-well, with Monterey Jack cheese, pickled jalapeños, leaf lettuce, vine-ripened tomato, and spicy mayonnaise.</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane fade enabledSection Tab2" id="Tab2">
+        <div class="row">
+          <div class="col-xs-12 col-md-5 featuredItems">
+            <div class="visible-xs visible-sm">
+              <center>
+                <h2 class="visible-sm">Starters &amp; Shareables</h2>
+                <p>Flavor, spice and an extra helping of attitude. That's worth celebrating.</p>
+              </center>
+            </div>
+            <div class="featuredItem TabFeaturedItem1"><img alt="Nachos" class="featuredItemImg" data-originalsrc="https://www.hardrockcafe.com/files/5282/Nachos_No_Protein-20.jpg"
+                src="https://www.hardrockcafe.com/files/5282/Nachos_No_Protein-20.jpg" title="Classic Nachos">
+              <div class="featuredItemContent">
+                <h3>Classic Nachos</h3>
+                <div>Crisp tortilla chips layered with ranch-style beans and a four-cheese sauce blend, topped with fresh pico de gallo, spicy jalapeños, melted cheddar and Monterey Jack cheese, pickled red onions and scallions, served with sour
+                  cream on
+                  the side. <strong>Add Guacamole, Grilled Chicken, or Grilled Steak for an additional charge.</strong></div>
+              </div>
+              <script>
+                $(function() {
+                  $('.hrcRestaurantMenu2Widget1323330 [href="#Tab2"]').on('show.bs.tab', function() {
+                    $('.hrcRestaurantMenu2Widget1323330 .Tab2 .TabFeaturedItem1 .featuredItemImg').attr('src', $('.hrcRestaurantMenu2Widget1323330 .Tab2 .TabFeaturedItem1 .featuredItemImg').attr('data-originalsrc'));
+                  });
+                });
+              </script>
+            </div>
+            <div class="featuredItem TabFeaturedItem2 TabFeaturedItemLast"><img alt="Spicy Shrimp Menu Item at Hard Rock Cafe" class="featuredItemImg" data-originalsrc="https://www.hardrockcafe.com/files/5282/Dynamite-Shrimp-32.jpg"
+                src="https://www.hardrockcafe.com/files/5282/Dynamite-Shrimp-32.jpg" title="One Night in Bangkok Spicy Shrimp">
+              <div class="featuredItemContent">
+                <h3>One Night in Bangkok<br>Spicy Shrimp<sup>™</sup></h3>
+                <div>Crispy shrimp, tossed in a creamy, spicy sauce, topped with scallions, served on a bed of coleslaw.</div>
+              </div>
+              <script>
+                $(function() {
+                  $('.hrcRestaurantMenu2Widget1323330 [href="#Tab2"]').on('show.bs.tab', function() {
+                    $('.hrcRestaurantMenu2Widget1323330 .Tab2 .TabFeaturedItem2 .featuredItemImg').attr('src', $('.hrcRestaurantMenu2Widget1323330 .Tab2 .TabFeaturedItem2 .featuredItemImg').attr('data-originalsrc'));
+                  });
+                });
+              </script>
+            </div>
+          </div>
+          <div class="col-xs-10 col-xs-push-1 col-md-6 col-md-push-1 menuItems">
+            <div class="submenuGroup TabMenuItem1 TabMenuItemLast">
+              <ul class="menuItemList">
+                <li class="TabMenuItemItem1 newItemNo">
+                  <h4>THREE-CHEESE &amp; ROMA TOMATO FLATBREAD</h4>
+                  <div>A blend of Mozzarella, Parmesan and Romano cheeses, topped with Roma tomatoes and fresh basil, drizzled with cilantro pesto. <br><small><em>Flatbreads vary in locations around the world.</em></small></div>
+                </li>
+                <li class="TabMenuItemItem2 newItemNo">
+                  <h4>SOUTHWEST CHICKEN FLATBREAD</h4>
+                  <div>Grilled fresh chicken, avocado, melted Italian cheeses, fresh pico de gallo, diced red peppers and scallions, finished with guacamole ranch. <br><small><em>Flatbreads vary in locations around the world.</em></small></div>
+                </li>
+                <li class="TabMenuItemItem3 newItemNo">
+                  <h4>PEPPERONI FLATBREAD</h4>
+                  <div>Melted Mozzarella, Parmesan and Romano cheeses, layered with sliced pepperoni and traditional pizza sauce, topped with a sprinkle of grated Romano cheese. <br><small><em>Flatbreads vary in locations around the
+                        world.</em></small>
+                  </div>
+                </li>
+                <li class="TabMenuItemItem4 newItemNo">
+                  <h4>WINGS</h4>
+                  <div>Our signature slow-roasted jumbo wings tossed with your choice of classic buffalo, sweet &amp; spicy tangy, or house-made barbecue sauce, served with celery and blue cheese dressing.</div>
+                </li>
+                <li class="TabMenuItemItem5 newItemNo">
+                  <h4>BONELESS BODACIOUS WINGS</h4>
+                  <div>Our crispy Tupelo Chicken Tenders tossed with your choice of classic buffalo, sweet &amp; spicy tangy, or house-made barbecue sauce, served with celery and blue cheese dressing.</div>
+                </li>
+                <li class="TabMenuItemItem6 newItemNo">
+                  <h4>ALL-AMERICAN SLIDERS</h4>
+                  <div>Three mini-burgers with melted American cheese, crispy onion ring and creamy coleslaw on a toasted brioche bun.</div>
+                </li>
+                <li class="TabMenuItemItem7 newItemNo">
+                  <h4>CUBAN SLIDERS</h4>
+                  <div>Three mini-burgers with melted Swiss cheese, Dijon mayonnaise, hand-pulled smoked pork and sliced pickle.</div>
+                </li>
+                <li class="TabMenuItemItem8 TabMenuItemItemLast newItemNo">
+                  <h4>BRUSCHETTA</h4>
+                  <div>Balsamic-marinated Roma tomatoes and fresh basil topped with Romano cheese. Served with toasted artisan bread drizzled with basil oil and a side of shaved Parmesan cheese.</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane fade enabledSection Tab3" id="Tab3">
+        <div class="row">
+          <div class="col-xs-12 col-md-5 featuredItems">
+            <div class="visible-xs visible-sm">
+              <center>
+                <h2 class="visible-sm">Sandwiches</h2>
+                <p>Served with seasoned fries or upgrade to Cheese Fries with Applewood Bacon.</p>
+              </center>
+            </div>
+            <div class="featuredItem TabFeaturedItem1 TabFeaturedItemLast">
+              <img alt="BBQ Pulled Pork Sandwich" class="featuredItemImg" data-originalsrc="https://www.hardrockcafe.com/files/5282/BBQ_Pulled_Pork-60.jpg" src="https://www.hardrockcafe.com/files/5282/BBQ_Pulled_Pork-60.jpg">
+
+              <div class="featuredItemContent">
+                <h3>BBQ PULLED CHICKEN SANDIWCH</h3>
+                <div>Hand-pulled smoked pork with our house-made barbecue sauce, served on a toasted fresh brioche bun with coleslaw and pickles.</div>
+              </div>
+              <script>
+                $(function() {
+                  $('.hrcRestaurantMenu2Widget1323330 [href="#Tab3"]').on('show.bs.tab', function() {
+                    $('.hrcRestaurantMenu2Widget1323330 .Tab3 .TabFeaturedItem1 .featuredItemImg').attr('src', $('.hrcRestaurantMenu2Widget1323330 .Tab3 .TabFeaturedItem1 .featuredItemImg').attr('data-originalsrc'));
+                  });
+                });
+              </script>
+            </div>
+          </div>
+          <div class="col-xs-10 col-xs-push-1 col-md-6 col-md-push-1 menuItems">
+            <div class="submenuGroup TabMenuItem1 TabMenuItemLast">
+              <ul class="menuItemList">
+                <li class="TabMenuItemItem1 newItemNo">
+                  <h4>GRILLED CHICKEN SANDWICH</h4>
+                  <div>Grilled fresh chicken with melted Monterey Jack cheese, Applewood bacon, leaf lettuce and vine-ripened tomato, served on a toasted fresh brioche bun with honey mustard sauce.</div>
+                </li>
+                <li class="TabMenuItemItem2 TabMenuItemItemLast newItemNo">
+                  <h4>FRIED CHICKEN SANDWICH</h4>
+                  <div>Crispy buttermilk-marinated chicken breast with leaf lettuce, vine-ripened tomato and ranch dressing, served on a toasted fresh brioche bun. <br><em>Spice it up with our classic buffalo sauce upon request! </em></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane fade enabledSection Tab4" id="Tab4">
+        <div class="row">
+          <div class="col-xs-12 col-md-5 featuredItems">
+            <div class="visible-xs visible-sm">
+              <h2 class="visible-sm">Salads &amp; Bowls</h2>
+            </div>
+            <div class="featuredItem TabFeaturedItem1 TabFeaturedItemLast"><img alt="STEAK SALAD" class="featuredItemImg" data-originalsrc="https://www.hardrockcafe.com/files/5282/Steak-Salad-044.jpg"
+                src="https://www.hardrockcafe.com/files/5282/Steak-Salad-044.jpg" title="STEAK SALAD">
+              <div class="featuredItemContent">
+                <h3>STEAK SALAD</h3>
+                <div>8oz grilled steak on a bed of fresh mixed greens tossed in a blue cheese vinaigrette, with pickled red onions, red peppers and Roma tomatoes, finished with crispy shoestring onions and blue cheese crumbles.</div>
+              </div>
+              <script>
+                $(function() {
+                  $('.hrcRestaurantMenu2Widget1323330 [href="#Tab4"]').on('show.bs.tab', function() {
+                    $('.hrcRestaurantMenu2Widget1323330 .Tab4 .TabFeaturedItem1 .featuredItemImg').attr('src', $('.hrcRestaurantMenu2Widget1323330 .Tab4 .TabFeaturedItem1 .featuredItemImg').attr('data-originalsrc'));
+                  });
+                });
+              </script>
+            </div>
+          </div>
+          <div class="col-xs-10 col-xs-push-1 col-md-6 col-md-push-1 menuItems">
+            <div class="submenuGroup TabMenuItem1 TabMenuItemLast">
+              <ul class="menuItemList">
+                <li class="TabMenuItemItem1 newItemNo">
+                  <h4>GRILLED CHICKEN CAESAR SALAD</h4>
+                  <div>Fresh chicken breast grilled and sliced, with fresh romaine tossed in a classic Caesar dressing, topped with Parmesan crisps, croutons and shaved Parmesan cheese. <b>Substitute Grilled Salmon for an additional charge.</b></div>
+                </li>
+                <li class="TabMenuItemItem2 newItemNo">
+                  <h4>GRILLED SALMON NOODLE BOWL</h4>
+                  <div>Ramen noodles tossed in a sesame-soy dressing over a bed of mixed greens topped with edamame, julienned carrots, red peppers, cabbage, and scallions, served with grilled Norwegian salmon.</div>
+                </li>
+                <li class="TabMenuItemItem3 TabMenuItemItemLast newItemNo">
+                  <h4>SOUTHWESTERN CHICKEN BOWL</h4>
+                  <div>Fajita-spiced chicken, quinoa corn salad, pico de gallo, seasoned black beans and red cabbage served on mixed greens tossed in a guacamole ranch dressing.</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div role="tabpanel" class="tab-pane fade enabledSection Tab6" id="Tab6">
+        <div class="row">
+          <div class="col-xs-12 col-md-5 featuredItems">
+            <div class="visible-xs visible-sm">
+              <h2 class="visible-sm">
+                <center>Desserts</center>
+              </h2>
+            </div>
+            <div class="featuredItem TabFeaturedItem1 TabFeaturedItemLast"><img alt="Hot Fudge Brownie" class="featuredItemImg" data-originalsrc="https://www.hardrockcafe.com/files/5282/Hot_fudge_sunday_4.jpg"
+                src="https://www.hardrockcafe.com/files/5282/Hot_fudge_sunday_4.jpg" title="Hot Fudge Brownie">
+              <div class="featuredItemContent">
+                <h3>HOT FUDGE BROWNIE</h3>
+                <div>Warm chocolate brownie topped with vanilla bean ice cream, hot fudge, chocolate sprinkles, fresh whipped cream and a cherry.</div>
+              </div>
+              <script>
+                $(function() {
+                  $('.hrcRestaurantMenu2Widget1323330 [href="#Tab6"]').on('show.bs.tab', function() {
+                    $('.hrcRestaurantMenu2Widget1323330 .Tab6 .TabFeaturedItem1 .featuredItemImg').attr('src', $('.hrcRestaurantMenu2Widget1323330 .Tab6 .TabFeaturedItem1 .featuredItemImg').attr('data-originalsrc'));
+                  });
+                });
+              </script>
+            </div>
+          </div>
+          <div class="col-xs-10 col-xs-push-1 col-md-6 col-md-push-1 menuItems">
+            <div class="submenuGroup TabMenuItem1 TabMenuItemLast">
+              <ul class="menuItemList">
+                <li class="TabMenuItemItem1 newItemNo">
+                  <h4>NEW YORK CHEESECAKE</h4>
+                  <div>Rich and creamy NY-style cheesecake served with a fresh strawberry sauce and fresh whipped cream.</div>
+                </li>
+                <li class="TabMenuItemItem2 newItemNo">
+                  <h4>HOMEMADE APPLE COBBLER</h4>
+                  <div>Old-fashioned apple cobbler with warm Granny Smith apples, baked until golden brown and topped with vanilla bean ice cream and caramel sauce.</div>
+                </li>
+                <li class="TabMenuItemItem3 newItemNo">
+                  <h4>ICE CREAM</h4>
+                  <div>Choose from Madagascar vanilla bean or rich chocolate.</div>
+                </li>
+                <li class="TabMenuItemItem4 TabMenuItemItemLast newItemNo">
+                  <h4>DINER-STYLE MILKSHAKES</h4>
+                  <div>Your choice of Madagascar vanilla bean or rich chocolate ice cream blended thick and finished with fresh whipped cream.</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div role="tabpanel" class="tab-pane fade enabledSection Tab8 TabLast active in" id="Tab8">
+        <div class="row">
+          <div class="col-xs-12 col-md-5 featuredItems">
+            <div class="visible-xs visible-sm">
+              <h2 class="visible-sm"><span class="visible-sm">
+                  <center>Beverages</center>
+                </span></h2>
+            </div>
+            <div class="featuredItem TabFeaturedItem1 TabFeaturedItemLast"><img alt="Hurricane Alcoholic Beverage" class="featuredItemImg" data-originalsrc="https://www.hardrockcafe.com/files/5282/Hurricane-04.jpg"
+                src="https://www.hardrockcafe.com/files/5282/Hurricane-04.jpg" title="Hurricane">
+              <div class="featuredItemContent">
+                <h3>Hurricane</h3>
+                <div><em>Our signature cocktail and a 1940s New Orleans classic! </em><br>Bacardi Superior Rum, a blend of orange, mango, pineapple juice and grenadine, finished with a float of Bacardi Black Rum and Amaretto. Include your own
+                  collectible
+                  glass for an additional charge.</div>
+              </div>
+              <script>
+                $(function() {
+                  $('.hrcRestaurantMenu2Widget1323330 [href="#Tab8"]').on('show.bs.tab', function() {
+                    $('.hrcRestaurantMenu2Widget1323330 .Tab8 .TabFeaturedItem1 .featuredItemImg').attr('src', $('.hrcRestaurantMenu2Widget1323330 .Tab8 .TabFeaturedItem1 .featuredItemImg').attr('data-originalsrc'));
+                  });
+                });
+              </script>
+            </div>
+          </div>
+          <div class="col-xs-10 col-xs-push-1 col-md-6 col-md-push-1 menuItems">
+            <div class="submenuGroup TabMenuItem1">
+              <ul class="menuItemList">
+                <li class="TabMenuItemItem1 newItemNo">
+                  <h4>Classic Caribbean Mojito</h4>
+                  <div><em>A treasured favorite with a little extra jazz!</em><br>Bacardi Superior Rum, fresh mint, lime juice and sparkling soda, with a premium Bacardi Añejo Cuatro floater and a powdered sugar sprinkle.</div>
+                </li>
+                <li class="TabMenuItemItem2 newItemNo">
+                  <h4>Rockin' Fresh Rita</h4>
+                  <div>Milagro Silver Tequila, fresh lime juice and agave nectar, finished with our signature sweet and savory rim. <strong>Upgrade to Patrón Silver Tequila for an additional charge.</strong></div>
+                </li>
+                <li class="TabMenuItemItem3 newItemNo">
+                  <h4>Blackberry Sparkling Sangria</h4>
+                  <div>A signature blend of red wine, the fresh flavors of blackberries, cranberry juice and squeeze of orange, topped with bubbly Riondo Prosecco.</div>
+                </li>
+                <li class="TabMenuItemItem4 TabMenuItemItemLast newItemNo">
+                  <h4>Ultimate Long Island Iced Tea</h4>
+                  <div>Tito's Handmade Vodka, Bombay Sapphire Gin, Sailor Jerry Spiced Rum, Cointreau Orange Liqueur, house-made sour mix finished with a splash of Coca-Cola<sup>®</sup>. </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
